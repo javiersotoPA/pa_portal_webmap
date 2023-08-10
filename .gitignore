@@ -8,6 +8,7 @@
 *.dbf
 *.shx
 *.zip
+*copy*
 
 database.ini
 __pycache__/

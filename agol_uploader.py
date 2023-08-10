@@ -31,10 +31,8 @@ for layer in layers_to_agol:
         exit(1)
     flayercol = FeatureLayerCollection.fromitem(dataitem)  ## turn the item above into feature collection (not changing anything on agol)
     #print(flayercol)
-    if layer == 'agol_carbon_peat_map_16':
-        flayercol.manager.overwrite(f"{layer}.geojson")
-    else:
-        flayercol.manager.overwrite(f"{layer}.shp")
+    flayercol.manager.overwrite(f"{layer}.geojson")
+    # Overwrite the hosted feature layer with the local layer.
 
 print("\n\nEnd of the script")
 

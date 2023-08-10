@@ -27,4 +27,4 @@ Additionally, the settings.py has three string variables:<br>
 ## How to run it
 
 * For running the script, use the main.py. <br>
-* Bare in mind that if lines 61 and 62 are not commented, the script will update on AGOL any layer that has TRUE on the settings.py file. <br>
+* Bare in mind that if lines 63 and 64 are not commented, the script will update on AGOL any layer that has TRUE on the settings.py file. <br>

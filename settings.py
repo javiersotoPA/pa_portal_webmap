@@ -11,13 +11,13 @@ layers = {
 settings = { 
  "agol_pa_site_polygons" : True,
  "agol_pa_site_centroids" : True,
- "agol_pa_feasability_studies" : False,
- "agol_pa_feasability_studies_centroids" : False,
+ "agol_pa_feasability_studies" : True,
+ "agol_pa_feasability_studies_centroids" : True,
  "agol_combined_peat_depths" : False,
  "agol_carbon_peat_map_16" : False,
  "agol_pa_reported_hectares" : True
 }
 
 agol_user = 'PeatlandAction'
-agol_password = 'XXXXXXX'
-db_credentials = 'postgresql://XXXXXXX@localhost:5432/peatland_action'
+agol_password = 'PASSWORD'
+db_credentials = 'postgresql://USER:PASSWORD@localhost:5432/peatland_action'
